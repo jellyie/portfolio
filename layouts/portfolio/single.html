@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+
+<div class="container custom-container">
+    <div class="row d-md-flex justify-content-center align-items-start">
+        <div class="col-md-10 py-5">
+            {{ $name := .Title }}
+            <h1 class="h3">{{ if .Title }}{{ .Title }}{{ else }}{{ printf .Site.Params $name }}{{ end }}</h1>
+            <hr /><br>
+            {{ .Content }}
+        </div>
+    </div>
+
+
+    {{ end }}

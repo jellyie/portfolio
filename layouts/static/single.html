@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="container-fluid padding">
+    <div class="row d-md-flex justify-content-center align-items-start">
+        <div class="col-md-8 p-5">
+            {{ $name := .Title }}
+            <h1 class="display-4">{{ if .Title }}{{ .Title }}{{ else }}{{ printf .Site.Params $name }}{{ end }}</h1>
+            <hr />
+            {{ .Content }}
+            <div class="row d-md-flex py-5">
+                <div class="col-md-9 align-items-center justify-content-center pt-5">
+                    <blockquote class="blockquote text-right">
+                        <p>I want to learn more and more to see as beautiful what is necessary in things;
+                            then I
+                            shall
+                            be one of those who make things beautiful. Amor fati: let that be my love henceforth!</p>
+                        <footer class="blockquote-footer">Friedrich Nietzsche, <cite title="Source Title">The Gay
+                                Science</cite>
+                        </footer>
+                    </blockquote>
+                    <ul class="list-inline socials">
+                        <li class="list-inline-item"><a href="https://github.com/jellyie"><i
+                                    class="fab fa-github fa-lg"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 align-items-end justify-content-end about-img p-4">
+                    <img src="/images/avatar1.jpeg" class="rounded-circle border border-muted p-1 about-img"
+                        alt="80x80">
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+{{ end }}

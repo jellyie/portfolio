@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<div class="container-fluid padding">
+    <div class="row d-md-flex justify-content-center align-items-start">
+        <div class="col-md-8 p-5">
+            {{ $name := .Title }}
+            <h1 class="display-4">{{ if .Title }}{{ .Title }}{{ else }}{{ printf .Site.Params $name }}{{ end }}</h1>
+            <hr />
+            {{ .Content }}
+        </div>
+    </div>
+
+</div>
+
+
+{{ end }}

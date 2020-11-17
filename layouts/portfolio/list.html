@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+<div class="container custom-container">
+    <div class="row d-md-flex justify-content-center align-items-start">
+        <div class="col-md-10 py-5">
+            {{ $name := .Title }}
+            <h1 class="display-4">{{ if .Title }}{{ .Title }}{{ else }}{{ printf .Site.Params $name }}{{ end }}</h1>
+            <hr /><br>
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="container custom-container py-3">
+        <div class="row px-5 mx-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Writing</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5"><a href="/portfolio/writing/engl3100/">Digital Learning and Multimodal Writing
+                            (Research Paper)</a></p>
+                    <p>Engl 3100, Composition Studies: History, Theory, and Practice</p><br>
+                    <p class="h5"><a href="/portfolio/writing/engl3140/">A Monstrous Dragon (Copyediting Project)</a>
+                    </p>
+                    <p>Engl 3140, Editing for Publication</p><br>
+                    <p class="h5"><a href="/portfolio/writing/engl3110/">Lime Juicer Marketing Kit (Flyer &
+                            brochure)</a></p>
+                    <p>Engl 3110, Technical Writing</p><br>
+                    <p class="h5"><a href="/portfolio/writing/engl3105/">Automation (Rhetorical Argument Revision)</a>
+                    </p>
+                    <p>Engl 3105, Practical Grammar</p><br>
+                    <p class="h5"><a href="/portfolio/writing/engl3050/">Advertising for Podcast Listeners (Annotated
+                            Bibliography)</a></p>
+                    <p>Engl 3050, Introduction to Rhetoric & Composition</p><br>
+                    <p class="h5"><a href="/portfolio/writing/engl4201/">Placeholder/Pending (Research Paper)</a></p>
+                    <p>Engl 4201, Revolution, Race, Gender, and the Institutionalization of Oppression</p><br>
+                    <p class="h5"><a href="/portfolio/writing/csc4740/">Comparative Analysis of Milan, Lombardy, Italy
+                            AirBnB Listings (Data Mining Research
+                            Paper)</a></p>
+                    <p>Csc 4740, Data Mining</p><br>
+                    <p class="h5"><a href="/portfolio/writing/csc3210/">Parallel Programming Project-Based Learning
+                            (Report)</a></p>
+                    <p>Csc 3210, Computer Organization and Programming</p><br>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+
+
+        <!--Next section-->
+        <div class="row p-5 m-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Apps & Software</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5"><a href="#">Building your first custom mechanical keyboard (Digital Instruction
+                            Manual)</a></p>
+                    <p>Engl 4201, Senior Seminar</p><br>
+                    <p class="h5"><a href="https://nong1.gsucreate.org/">Portfolio Website (Bootstrap 4)</a></p>
+                    <p>Engl 3120, Digital Writing & Publishing</p><br>
+                    <p class="h5"><a href="#">Payday App Redesign (Adobe XD)</a></p>
+                    <p>Ewha Womans University, Digital Media & Technology</p><br>
+                    <p class="h5"><a href="https://github.com/jellyie/Quizzler">Quizzler App (Flutter/Dart)</a></p>
+                    <p>Personal Project</p><br>
+                    <p class="h5"><a href="https://github.com/jellyie/clima_flutter">Clima Weather App
+                            (Flutter/Dart)</a></p>
+                    <p>Personal Project</p><br>
+                    <p class="h5"><a href="https://github.com/jellyie/bmi-calculator-flutter">BMI Calculator
+                            (Flutter/Dart)</a></p>
+                    <p>Personal Project</p><br>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+        <!-- Next section-->
+        <div class="row p-5 m-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Translation</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5"><a href="/portfolio/translation/snotgirl/">SnotGirl Comic Excerpt</a></p>
+                    <p>Brian Lee O'Malley, Leslie Hung</p><br>
+                    <p class="h5"><a href="/portfolio/translation/spidermancomic/">Spiderman Comic Excerpt</a></p>
+                    <p>Marvel (CHECK)</p><br>
+                    <p class="h5"><a href="/portfolio/translation/the-last-guest/">The Last Guest Excerpt</a></p>
+                    <p>Kim Youngha</p><br>
+                    <p class="h5"><a href="/portfolio/translation/extraordinary-you/">Extraordinary You Drama Clip</a>
+                    </p>
+                    <p>MBC-TV</p><br>
+                    <p class="h5"><a href="/portfolio/translation/gong-hyojin-interview/">Interview with Actress Gong
+                            Hyojin</a></p>
+                    <p>Korea Grandma (CHECK)</p><br>
+                    <p class="h5"><a href="/portfolio/translation/somebody/">Somebody Season 1 & 2 (Team Translation,
+                            ONGOING)</a></p>
+                    <p>CHECK</p><br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{{ end }}
