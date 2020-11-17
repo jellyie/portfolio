@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-05-23T14:40:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-11-17T10:53:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/somebody/</loc>
+    <lastmod>2020-11-17T10:53:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/gong-hyojin-interview/</loc>
+    <lastmod>2020-11-17T10:53:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/extraordinary-you/</loc>
+    <lastmod>2020-11-17T10:52:45-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/the-last-guest/</loc>
+    <lastmod>2020-11-17T10:52:22-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/spidermancomic/</loc>
+    <lastmod>2020-11-17T10:52:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/translation/snotgirl/</loc>
+    <lastmod>2020-11-17T10:51:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/csc3210/</loc>
+    <lastmod>2020-11-17T10:49:47-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/csc4740/</loc>
+    <lastmod>2020-11-17T10:47:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/</loc>
+    <lastmod>2020-10-17T08:55:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3120/</loc>
+    <lastmod>2020-05-23T14:38:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl4201/</loc>
+    <lastmod>2020-05-23T14:36:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl4320/</loc>
+    <lastmod>2020-05-23T14:36:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3110/</loc>
+    <lastmod>2020-05-23T14:35:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3140/</loc>
+    <lastmod>2020-05-23T14:35:17-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3050/</loc>
+    <lastmod>2020-05-23T14:34:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3100/</loc>
+    <lastmod>2020-05-23T14:34:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/portfolio/writing/engl3105/</loc>
+    <lastmod>2020-05-08T21:14:24-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+</urlset>
