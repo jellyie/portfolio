@@ -5,6 +5,4 @@ tags: []
 draft: false
 ---
 
-This is a blurb about the things I've down. What projects I have completed, what things I'm working on, blah blah.
-This is a blurb about the things I've down. What projects I have completed, what things I'm working on, blah blah.
-This is a blurb about the things I've down. What projects I have completed, what things I'm working on, blah blah.
+I have written a variety of documents throughout my time at Georgia State University ranging from literary research papers to marketing material. Below, you can view my writing, my apps and digital projects, and my translation samples. 

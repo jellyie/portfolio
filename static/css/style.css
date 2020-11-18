@@ -29,6 +29,10 @@ h3, h4{
     color: #f2efed;
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
 .navbar-brand, .nav-link :disabled{
     color: #deaf9d!important;
 }
@@ -91,6 +95,11 @@ ul {
 @media (min-width: 768px){
     .custom-container{
         width: 900px!important;
+        margin: 0px auto!important;
+    }
+
+    .row{
+        padding: 0!important;
         margin: 0px auto!important;
     }
 }
