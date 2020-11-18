@@ -91,16 +91,26 @@ ul {
     text-align: right!important;
     padding: 0!important;
 }
-
-@media (min-width: 768px){
+@media (max-width: 576px){
     .custom-container{
-        width: 900px!important;
+        width: auto!important;
         margin: 0px auto!important;
+        padding: 0px!important;
     }
 
     .row{
-        padding: 0!important;
         margin: 0px auto!important;
+        padding: 0px!important;
+    }
+
+    .col{
+        margin: 0px auto!important;
+        padding: 0px!important;
+        padding-bottom: 3rem!important;
+    }
+
+    .px-5{
+        padding: .5rem!important;
     }
 }
 
@@ -109,4 +119,12 @@ ul {
         width: 1200px!important;
         margin: 0px auto!important;
     }
+
+    .px-5{
+        padding-left: 3rem!important;
+        padding-right: 3rem!important;
+    }
+
 }
+
+
