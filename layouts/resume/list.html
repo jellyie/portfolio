@@ -1,0 +1,128 @@
+{{ define "main" }}
+
+<div class="container custom-container">
+    <div class="row d-md-flex justify-content-center align-items-start">
+        <div class="col-md-10 py-5">
+            {{ $name := .Title }}
+            <h1 class="display-4">{{ if .Title }}{{ .Title }}{{ else }}{{ printf .Site.Params $name }}{{ end }}</h1>
+            <hr /><br>
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="container custom-container py-3">
+        <div class="row px-5 mx-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Education</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5">English, Rhetoric and Composition <br> Georgia State University</p>
+                    <p>08/2016 - 12/2020 Atlanta, Georgia</p>
+                    <p><b>Minor in Computer Science</b></p>
+                    <p><b>Relevent Coursework:</b> Technical Writing, Business Writing, Digital Writing & Publishing,
+                        Data
+                        Mining, Computer Organization & Programming, Data Structures</p>
+                    <br>
+                    <p class="h5">English <br> Ewha Womans University</p>
+                    <p>08/2019 - 12/2019 Seoul, South Korea</p>
+                    <p><b>Relevent Coursework:</b> Virtual Reality & Interactions, Digital Media Technology, Advanced
+                        Korean
+                    </p>
+                    <br>
+                    <p class="h5">Korean Certificate of Language Ability <br> Georgia State University</p>
+
+                </div>
+
+            </div>
+        </div>
+        <hr />
+
+
+        <!--Next section-->
+        <div class="row p-5 m-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Work Experience</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5">University Assistant <br> Georgia State University Library</p>
+                    <p>08/2016 - 05/2017 Atlanta, Georgia</p>
+                    <p><b>Responsibilities</b></p>
+                    <ul>
+                        <li>Transcribe audio files</li>
+                        <li>Check and edit transcripts against audio files for accuracy</li>
+                        <li>Prepare transcripts for Oral History Metadata Synchronizer (OHMS) Application</li>
+                        <li>Sync transcript with audio file and indexed interviews using OHMS</li>
+                        <li>Create videos for GSU Library YouTube Channel using Windows Movie Maker</li>
+                        <li>Write metadata for each project</li>
+                    </ul>
+                    <br>
+                    <p class="h5">English Tutor <br> Ewha Womans University</p>
+                    <p>08/2019 - 12/2019 Seoul, South Korea</p>
+                    <p><b>Responsibilities</b></p>
+                    <ul>
+                        <li>Provide English tutoring for Korean university students</li>
+                        <li>Tutor primarily on speaking</li>
+                        <li>Topics include daily conversational speaking, TOEIC questions, and interview questions</li>
+                    </ul>
+                    <br>
+                    <p class="h5">Teamaker <br> Kung Fu Tea</p>
+                    <p>03/2019 - 06/2020 Buford, Georgia</p>
+                    <p><b>Responsibilities</b></p>
+                    <ul>
+                        <li>Efficiently and consistently prepare drinks per brand standards</li>
+                        <li>Maintain bar and café cleanliness</li>
+                        <li>Take orders while providing high quality customer service
+                        <li>Memorize 100+ formulas with frequent retesting</li>
+                    </ul>
+                    <br>
+                    <p class="h5">Loyalty Lead <br> Old Navy</p>
+                    <p>01/2020 - Present Buford, Georgia</p>
+                    <p><b>Responsibilities</b></p>
+                    <ul>
+                        <li>Cashiering</li>
+                        <li>Provide register training for new associates</li>
+                        <li>Resolve customer concerns and conflicts</li>
+                    </ul>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+        <hr />
+        <!-- Next section-->
+        <div class="row p-5 m-3 d-md-flex justify-content-center align-items-start">
+            <div class="col-md-2 align-items-start">
+                <span class="h3">Skills</span>
+            </div>
+            <div class="col-md-10 px-5 align-items-start">
+                <div class="col-md-12 px-5 align-items-start">
+                    <p class="h5">Languages</p><br>
+                    <p>English <b>(Native)</b></p>
+                    <p>Vietnamese <b>(Native)</b></p>
+                    <p>Korean <b>(Intermediate)</b></p>
+                    <br>
+                    <p class="h5">Programs & Tools </p>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Flutter/Dart</li>
+                        <li>Git, Github</li>
+                        <li>Hugo, Netlify</li>
+                        <li>Bootstrap 4, HTML/CSS</li>
+                        <li>Microsoft Office</li>
+                        <li>Unity</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+{{ end }}

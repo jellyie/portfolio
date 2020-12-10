@@ -2,3 +2,28 @@ baseURL = "http://ireneong.com/"
 languageCode = "en-us"
 title = "Irene Ong"
 publishDir = "public"
+
+[menu]
+    [[menu.main]] 
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 100
+    
+    [[menu.main]] 
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 110
+
+    [[menu.main]] 
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 120
+
+    [[menu.main]] 
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 130

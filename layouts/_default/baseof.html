@@ -14,11 +14,29 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="/about/">About</a>
-                <a class="nav-item nav-link" href="/portfolio/">Portfolio</a>
-                <a class="nav-item nav-link"
-                    href="https://drive.google.com/file/d/1dWrL7kR9xXaYNTdvMKB8X_SMxYKAl3qJ/view">Resume</a>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.main }}
+                {{ if not (eq .Identifier "tags") }}
+                <li
+                    class="navbar-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+                    <a class="nav-link" href="{{ .URL | relURL }}" title="{{ .Title }}">{{ .Name }}</a>
+                </li>
+                {{ else }}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ .URL | relURL }}" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ .Name }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {{ range $name, $taxonomy := $currentPage.Site.Taxonomies.tags }}
+                        {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                        <a class="dropdown-item" href="{{ .URL | relURL }}">{{ $name }}</a>
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                </li>
+                {{ end }}
+                {{ end }}
             </div>
         </div>
     </nav>
